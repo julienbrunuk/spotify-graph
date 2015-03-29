@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html ng-app="musicApp" lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Spotify Graph Explorer</title>
+
+  <link rel="stylesheet" href="./bower_components/vis/dist/vis.min.css">
+  <link rel="stylesheet" href="./bower_components/angular-busy/dist/angular-busy.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/animate.css">
+  <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="./bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="./bower_components/angular-resource/angular-resource.js"></script>
+  <script type="text/javascript" src="./bower_components/angular-route/angular-route.js"></script>
+  <script type="text/javascript" src="./bower_components/angular-busy/dist/angular-busy.min.js"></script>
+
+  <script type="text/javascript" src="./bower_components/vis/dist/vis.min.js"></script>
+
+
+
+</head>
+
+<body>
+  <div id="graph">
+  </div>
+  <div class="intro" ng-controller="starter">
+    <h2>Spotify Graph Explorer &nbsp; <input class="searchi" type="text" name="" ng-model="search" ng-change="Search();" placeholder="Search by artist to start..." /> </h2>
+    <p>
+      Use the search box to find artists, then click on a node to explore the graph. If reaches the edges of the window, zoom-in/out and move in different part of the graph using your mouse. Artists collaborating on the same tracks will make your graph more interesting.
+    </p>
+  </div>
+  <div class="loadingIndicator animated slideInUp" ng-show="loading">Fetching nodes from ws.spotify.com..</div>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "spotify-ts",
+  "version": "0.0.0",
+  "homepage": "https://github.com/julienbrunuk/spotify-graph",
+  "authors": [
+    "julienbrunuk <hello@julienbrun.co.uk>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular-busy": "~4.1.2",
+    "angular-resource": "~1.3.15",
+    "angular-route": "~1.3.15",
+    "angular": "~1.3.15",
+    "foundation": "~5.5.1",
+    "vis": "~3.11.0"
+  }
+}
