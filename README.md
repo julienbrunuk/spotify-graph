@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/julienbrunuk/spotify-graph/badges/gpa.svg)](https://codeclimate.com/github/julienbrunuk/spotify-graph)
+
 # spotify-graph
 Explore music on Spotify with a graph. See it in action here: http://julienbrunuk.github.io/spotify-graph/
 
