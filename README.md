@@ -1,3 +1,9 @@
+*WARNING* - This project is not actively maintained any more as Spotify deprecated the legacy API. I might come back to this later as there is a clear migration path.
+
+Notes: https://developer.spotify.com/technologies/metadata-api/
+
+
+
 [![Code Climate](https://codeclimate.com/github/julienbrunuk/spotify-graph/badges/gpa.svg)](https://codeclimate.com/github/julienbrunuk/spotify-graph)
 
 # spotify-graph
